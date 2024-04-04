@@ -40,7 +40,7 @@ jobs:
       uses: sigstore/cosign-installer@9becc617647dfa20ae7b1151972e9b3a2c338a2b # v2.2.0
 
     - name: Log into ghcr.io
-      uses: docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a # v1.14.1
+      uses: docker/login-action@e92390c5fb421da1463c202d546fed0ec5c39f20 # v1.14.1
       with:
         registry: ghcr.io
         username: ${{ github.repository_owner }}
